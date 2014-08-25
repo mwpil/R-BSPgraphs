@@ -7,3 +7,4 @@ The infile consists of an .txt output from Tracer (Drummond et al.2012).The file
 The infile header should read: # Time Mean Median Upper Lower
 
 
+Drummond AJ, Suchard MA, Xie D & Rambaut A (2012) Bayesian phylogenetics with BEAUti and the BEAST 1.7 Molecular Biology And Evolution 29: 1969-1973
