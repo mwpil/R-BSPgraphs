@@ -1,10 +1,5 @@
 # R script for Bayesian Skyline Plots
 
-# import txt (first open in Excel to delete first row and correct configuration. Header should read: 
-# “Time”, “Mean”, “Median”, “Upper”, “Lower”
-
-data <-read.table("data.txt", sep="\t", header=TRUE)
-
 # install ggplot2 if you don't have it yet
 
 install.packages("ggplot2")
@@ -12,6 +7,15 @@ install.packages("ggplot2")
 # load ggplot2 package
 
 library(ggplot2)
+
+# import txt (first open in Excel to delete first row and correct configuration. Header should read: 
+# “Time”, “Mean”, “Median”, “Upper”, “Lower”
+
+data <-read.table("data.txt", sep="\t", header=TRUE)
+
+#check the file
+
+head(data)
 
 # define individual plots 
 
